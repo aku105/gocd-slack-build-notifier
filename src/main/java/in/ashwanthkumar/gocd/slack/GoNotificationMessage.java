@@ -84,7 +84,7 @@ public class GoNotificationMessage {
     }
 
     public String fullyQualifiedJobName() {
-        return pipeline.name + "/" + pipeline.counter + "/" + pipeline.stage.name + "/" + pipeline.stage.counter;
+        return pipeline.name + " - "  + pipeline.stage.name ;
     }
 
     public String getPipelineName() {
